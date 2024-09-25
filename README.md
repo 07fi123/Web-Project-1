@@ -1,4 +1,4 @@
-# Web Project 1
+# Web Project 1 - Peer Evaluations
 ## Table of Contents
 
 * [About the Project](#about-the-project)
@@ -9,7 +9,9 @@
 
 ## About the Project
 
-This is a Go project that uses Fiber for building APIs and Air for auto-reloading. It's function is to serve static files for static html development.
+This is a Go project that uses Fiber for building APIs and Air for auto-reloading. It's function is to serve static files for static html development. This software is for doing peer evaluations between students.
+
+CATME
 
 ## Prerequisites
 
