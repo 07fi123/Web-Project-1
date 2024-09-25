@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <main id="landing-page">
+    <h2>Sign Up for an Account</h2>
+    <form id="signup-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password1" name="password" required>
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="password2" name="confirm-password" required>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"><br><br>
+        <button id="signup-btn">Sign Up</button>
+    </form>
+
+    <h2>Login to your Account</h2>
+    <form id="login-form">
+        <label for="username-login">Username:</label>
+        <input type="text" id="username-login" name="username">
+        <label for="password-login">Password:</label>
+        <input type="password" id="password-login" name="password">
+        <button id="login-btn">Login</button>
+    </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
