@@ -18,19 +18,19 @@ h1, h2 {
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 40px;
 }
 
 label {
-    margin-bottom: 20px;
+    margin-top: 1rem;
 }
 
 input[type="text"], input[type="email"] {
     width: 100%;
-    height: 20px;
-    padding: 10px;
-    font-size: 16px;
+    height: 2rem;
+    padding: 0.3rem;
+    font-size: 1em;
     border: none;
     border-radius: 5px;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
@@ -38,19 +38,19 @@ input[type="text"], input[type="email"] {
 
 input[type="password"] {
     width: 100%;
-    height: 50px;
-    padding: 10px;
-    font-size: 16px;
+    height: 2rem;
+    padding: 0.3rem;
+    font-size: 1em;
     border: none;
     border-radius: 5px;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 button {
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    font-size: 16px;
+    width: 10vw;
+    height: 3rem;
+    padding: 0.25rem;
+    font-size: 1em;
     background-color: #4CAF50;
     color: #fff;
     border: none;
@@ -110,4 +110,23 @@ button:hover {
 
 .nav-bar a:hover {
     color: #ccc;
+}
+
+/* Table code */
+#surveys-table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
 }
