@@ -1,5 +1,4 @@
-# [Project Name]
-
+# Web Project 1
 ## Table of Contents
 
 * [About the Project](#about-the-project)
@@ -10,7 +9,7 @@
 
 ## About the Project
 
-[Project Name] is a Go project that uses Fiber for building APIs and Air for auto-reloading.
+This is a Go project that uses Fiber for building APIs and Air for auto-reloading. It's function is to serve static files for static html development.
 
 ## Prerequisites
 
