@@ -6,6 +6,7 @@ package main
 
 import (
 	"log"
+	"time"
 
 	"github.com/gofiber/fiber/v2"
 )
@@ -15,7 +16,12 @@ func main() {
 	app := fiber.New()
 
 	// Static file server
-	app.Static("/", "./www")
+	app.Static("/", "./www", fiber.Static{
+		Index:         "index.html",
+		CacheDuration: 10 * time.Second,
+		MaxAge:        3600,
+	},
+	)
 	// => http://localhost:3000/hello.txt
 	// => http://localhost:3000/gopher.gif
 
