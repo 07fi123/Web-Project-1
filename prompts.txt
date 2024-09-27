@@ -28,7 +28,7 @@ Here is an example of HTML code that meets the specifications:
 </head>
 <body>
     <!-- Landing Page -->
-    <div class="box">
+    <div class="landing-page">
         <h2>Sign Up for an Account</h2>
         <form id="signup-form">
             <label for="username">Username:</label>
@@ -219,7 +219,7 @@ h1, h2 {
     color: #333;
 }
 
-#box {
+#landing-page {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
@@ -645,3 +645,81 @@ However, if you want to keep the last item at the end of the container without a
 
 In this modified version, the last item will be pushed to the end of the container with no gaps in between.
 
+### USER
+write me a html table and associated css that displays user surveys  with the following headers title, description, date, created-by
+
+### ASSISTANT
+Here is an example HTML table and associated CSS that displays user surveys:
+
+**index.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Surveys</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table id="surveys-table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Date</th>
+                <th>Created By</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Survey 1</td>
+                <td>This is a sample survey</td>
+                <td>2022-01-01</td>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <td>Survey 2</td>
+                <td>This is another sample survey</td>
+                <td>2022-02-15</td>
+                <td>Jane Smith</td>
+            </tr>
+            <tr>
+                <td>Survey 3</td>
+                <td>This is a third sample survey</td>
+                <td>2022-03-20</td>
+                <td>Bob Johnson</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
+```
+
+**styles.css**
+
+```css
+#surveys-table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+```
+
+This HTML table has four columns for the survey title, description, date, and creator. The associated CSS styles the table with a light gray border and background color, and adds some padding to each cell.
+
+Note that this is just an example and you can customize the CSS as needed to fit your specific design requirements.
