@@ -21,5 +21,14 @@ async function fetching(url,body){
 }
 
 
+const onDomReadyHandler = () => {
+    console.log("Dom Ready")
+    /* TODO:
+        Call a function that loads defaults from the browser session storage.  
+        Call a function that makes a request to the database via route /api/hydrate
 
-document.onload(e => {})
+    */ 
+}
+
+addEventListener("DOMContentLoaded", onDomReadyHandler);
+

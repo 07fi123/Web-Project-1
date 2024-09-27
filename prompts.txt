@@ -28,7 +28,7 @@ Here is an example of HTML code that meets the specifications:
 </head>
 <body>
     <!-- Landing Page -->
-    <div class="landing-page">
+    <div class="box">
         <h2>Sign Up for an Account</h2>
         <form id="signup-form">
             <label for="username">Username:</label>
@@ -219,7 +219,7 @@ h1, h2 {
     color: #333;
 }
 
-#landing-page {
+#box {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
