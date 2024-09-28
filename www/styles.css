@@ -13,7 +13,9 @@ body {
 h1, h2 {
     color: #ffffff;
 }
-
+a {
+    color: #f5ec8c;
+}
 #box {
     max-width: 60vw;
     margin: 40px auto;
